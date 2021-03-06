@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/runv/star-notary#readme",
   "dependencies": {
-    "@openzeppelin/contracts": "^3.4.1"
+    "@openzeppelin/contracts": "^3.4.1",
+    "@truffle/hdwallet-provider": "^1.2.2"
   }
 }
