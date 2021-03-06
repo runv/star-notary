@@ -1,4 +1,4 @@
-pragma solidity >= 0.5.16;
+pragma solidity >= 0.7.4;
 
 contract StarNotary {
 
@@ -7,7 +7,7 @@ contract StarNotary {
 
     event starClaimed(address owner);
 
-    constructor() public {
+    constructor() {
         starName = "Awesome Udacity Star";
     }
 
