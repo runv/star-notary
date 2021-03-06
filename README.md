@@ -23,7 +23,7 @@ The Token implements ERC-721 specification and has its own Name and Symbol:
 
 ### Token Address
 
-Your “Token Address” on the Rinkeby Network
+**Token Address: 0x48A9a27EC2428BB28D4DE5d522439666A9017435** on the Rinkeby Network
 
 ## Libraries
 
