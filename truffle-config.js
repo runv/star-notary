@@ -19,9 +19,9 @@
  */
 
  const HDWalletProvider = require('@truffle/hdwallet-provider');
-// const infuraKey = "fj4jll3k.....";
+ const infuraKey = "60e8319602b94c008b238b493478bd05";
 //
-// const fs = require('fs');
+const fs = require('fs');
 const mnemonic = fs.readFileSync(".secret").toString().trim();
 
 module.exports = {
@@ -54,7 +54,7 @@ module.exports = {
 
     // Another network with more advanced options...
     rinkeby: {
-      provider: () => new HDWalletProvider(mnemonic, `https://rinkeby.infura.io/v3/[KEY]`),
+      provider: () => new HDWalletProvider(mnemonic, `https://rinkeby.infura.io/v3/${infuraKey}`),
       network_id: 4,       // Ropsten's id
       gas: 4500000,        // rinkeby has a lower block limit than mainnet
       gasPrice: 10000000000,
